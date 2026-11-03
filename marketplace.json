@@ -1,0 +1,15 @@
+{
+  "category": "Personal",
+  "description": "中国法定节假日与拼假计算：法定假日与调休上班日查询、某天是否上班判断、给定年假天数算出最划算的拼假方案。数据只用国务院办公厅已公布年份，未公布年份明确告知、不编造。",
+  "handle": "leave-optimizer",
+  "logo": "still needed: 1:1 SVG/PNG with background",
+  "mcp_server": {
+    "command": "python3 server.py",
+    "note": "纯 Python 标准库，零依赖，stdio 传输；本地自测 python3 test_client.py"
+  },
+  "name": "拼假助手 LeaveOptimizer",
+  "organization": "待填写（发布者的唯一小写组织 handle）",
+  "repo_url": "https://github.com/Coconut-yellow/grooookbooot",
+  "testing_instructions": "本地零依赖自测：python3 test_client.py，依次验证握手、三个工具、2026 年 5 天年假拼出请 5 休 15、2027 年因官方未公布而明确拒绝编造。",
+  "version": "0.1.0"
+}
