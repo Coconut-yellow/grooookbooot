@@ -50,7 +50,7 @@ print(tool("best_leave_plan", {"year": 2026, "annual_leave_days": 5}))
 print("\n== best_leave_plan(2026, 2天年假) ==")
 print(tool("best_leave_plan", {"year": 2026, "annual_leave_days": 2}))
 
-print("\n== best_leave_plan(2027, 5天年假) —— 官方未公布，应明确拒绝编造 ==")
+print("\n== best_leave_plan(2027, 5天年假) —— 官方已公布，应给出拼假方案 ==")
 print(tool("best_leave_plan", {"year": 2027, "annual_leave_days": 5}))
 
 proc.stdin.close()
