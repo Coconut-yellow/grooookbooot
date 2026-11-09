@@ -10,6 +10,6 @@
   "name": "拼假助手 LeaveOptimizer",
   "organization": "coconut-yellow",
   "repo_url": "https://github.com/Coconut-yellow/grooookbooot",
-  "testing_instructions": "本地零依赖自测：python3 test_client.py，依次验证握手、三个工具、2026 年 5 天年假拼出请 5 休 15、2027 年因官方未公布而明确拒绝编造。",
-  "version": "0.1.0"
+  "testing_instructions": "本地零依赖自测：python3 test_client.py，依次验证握手、三个工具、2026 年 5 天年假拼出请 5 休 15、2027 年 5 天年假能算出春节请 5 休 15（数据来自国办发明电〔2026〕10号）。",
+  "version": "0.1.1"
 }
